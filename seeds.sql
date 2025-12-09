@@ -13,4 +13,5 @@ INSERT INTO schema_v4.reservation (reservation_id, guest_id, room_id, admin_id, 
 VALUES (1, 1, 1, 1, '2025-12-10', '2025-12-15', 'Confirmed');
 
 INSERT INTO schema_v5.payment (payment_id, reservation_id, amount, payment_method, payment_date)
+
 VALUES (1, 1, 12500.00, 'Credit Card', '2025-12-09');
